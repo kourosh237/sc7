@@ -3,10 +3,8 @@ import 'package:flutter/material.dart';
 void main() {
   runApp(const MyApp());
 }
-
 class MyApp extends StatelessWidget {
   const MyApp({super.key});
-
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
@@ -40,7 +38,7 @@ class _SetLocationState extends State<SetLocation> {
                   const SizedBox(height: 10),
                   const Text('Set Location'),
                   const SizedBox(height: 108,),
-                  SizedBox(width: 250,height: 250,child: Image.asset('asset/image/pic.png'))
+                  SizedBox(width: 250,height: 250,child: Image.asset('asset/image/pic.png')),
                 ],
               ),
             ),
